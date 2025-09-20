@@ -22,7 +22,7 @@
     <nav class="header-nav">
       <ul>
         <li><a href="/boimela.php">বইমেলা ২০২৫-২০২৬</a></li>
-        <li><a href="/books.php">আমাদের বইসমূহ</a></li>
+        <li><a href="books.php">আমাদের বইসমূহ</a></li>
         <li><a href="/about.php">আমাদের সম্পর্কে</a></li>
         <li><a href="/contact.php">যোগাযোগ</a></li>
       </ul>
