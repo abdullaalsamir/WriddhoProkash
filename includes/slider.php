@@ -17,12 +17,12 @@ if (is_dir($coversDir)) {
         <div class="slider-track" id="sliderTrack">
             <?php foreach ($coverImages as $img): ?>
                 <div class="slide">
-                    <img src="assets/covers/<?php echo htmlspecialchars($img); ?>" alt="">
+                    <img src="<?= $base_url ?>assets/covers/<?php echo htmlspecialchars($img); ?>" alt="">
                 </div>
             <?php endforeach; ?>
             <?php foreach ($coverImages as $img): ?>
                 <div class="slide">
-                    <img src="assets/covers/<?php echo htmlspecialchars($img); ?>" alt="">
+                    <img src="<?= $base_url ?>assets/covers/<?php echo htmlspecialchars($img); ?>" alt="">
                 </div>
             <?php endforeach; ?>
         </div>

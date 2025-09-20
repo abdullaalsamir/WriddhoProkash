@@ -9,7 +9,7 @@ include 'includes/header.php';
         <a href="books/krishnokaya" class="book-link">
             <div class="book-card">
                 <div class="book-cover">
-                    <img src="assets/covers/Krishnokaya.png" alt="কৃষ্ণকায়া">
+                    <img src="<?= $base_url ?>assets/covers/Krishnokaya.png" alt="কৃষ্ণকায়া">
                 </div>
                 <h2 class="book-title">কৃষ্ণকায়া</h2>
                 <p class="book-author">সাজ্জাদ সিয়াম</p>
